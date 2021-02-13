@@ -13,4 +13,4 @@ COPY . .
 
 VOLUME ["/usr/src/app"]
 
-CMD ["/usr/src/app/entry_point.sh"]
+CMD ["sh", "/usr/src/app/entry_point.sh"]
